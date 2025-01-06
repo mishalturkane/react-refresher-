@@ -1,14 +1,11 @@
-function App() {
-  const handleClick = () => {
-    window.location.href = "https://mishalturkane.github.io";
-  };
+import React from 'react';
+import './App.css';
+function App(){
 
-  return (
+return (
     <div>
-      <p>Mishal Turkane</p>
-      <button onClick={handleClick}>Click me</button>
+        Hello world
     </div>
-  );
+)
 }
-
-export default App;
+export default  App;
